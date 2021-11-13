@@ -1,0 +1,23 @@
+/* Design of the grey banner  */
+.black-banner {
+  padding-top: 10px;
+  background-color: #3e3e3e;
+  color: white;
+}
+
+.black-banner-icon a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.black-banner-menu p {
+  font-size: 12px;
+}
+
+/* Design of the white banner  */
+
+.white-banner {
+  background-color: white;
+  padding-top: 20px;
+}

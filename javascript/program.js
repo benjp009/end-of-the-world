@@ -7,12 +7,12 @@ const program = [
   {
     icon: '/ressources/images/yes.png',
     title: 'Accept',
-    description: 'afther that day, the world won't be. Just accept it. We have sessions for you to work on that.',
+    description: 'afther that day, the world will nott be. Just accept it. We have sessions for you to work on that.',
   },
   {
     icon: '/ressources/images/flame.png',
     title: 'Burn',
-    description: 'Your belongings will no longer be, it's time to burn it all! We have gasoline and matches!',
+    description: 'Your belongings will no longer be, it is time to burn it all! We have gasoline and matches!',
   },
   {
     icon: '/ressources/images/heart.png',

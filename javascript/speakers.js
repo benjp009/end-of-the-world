@@ -9,7 +9,7 @@ const speaker = [
     profilePicture: '/ressources/images/Speaker2.jpg',
     name: 'Mane Monaya',
     title: 'Tech Space Officer',
-    description: 'We try to build spaceship to go to a planet that does not exist, and we failed miserably, let's jump all together to reach the moon',
+    description: 'We try to build spaceship to go to a planet that does not exist, and we failed miserably, lets jump all together to reach the moon',
   },
   {
     profilePicture: '/ressources/images/Speaker3.jpg',

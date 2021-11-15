@@ -1,16 +1,15 @@
 @font-face {
-font-family: "Cocogoose";
-src: url("/css/fonts/cocogoose/Cocogoose_trial.otf");
-font-family: "lato";
-src: url("/css/fonts/lato/Lato-Regular.ttf");
+  font-family: "Cocogoose";
+  src: url("/css/fonts/cocogoose/Cocogoose_trial.otf");
+  font-family: "lato";
+  src: url("/css/fonts/lato/Lato-Regular.ttf");
 }
 
 @media only screen and (min-width: 600px) {
-
   body {
     margin: 0;
     max-width: 100%;
-    font-family: "lato", sans-serif;
+    font-family: "lato", "Arial",sans-serif;
   }
 
   h2 {
@@ -92,7 +91,7 @@ src: url("/css/fonts/lato/Lato-Regular.ttf");
   .welcome-user {
     font-size: 40px;
     margin: 0;
-    color: #ec5242
+    color: #ec5242;
   }
 
   .page-title {
@@ -126,7 +125,6 @@ src: url("/css/fonts/lato/Lato-Regular.ttf");
 
   .white-text {
     color: white;
-
   }
 
   .program-see-more {

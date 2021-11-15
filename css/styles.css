@@ -76,7 +76,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 100vh;
   }
 
   .white-overlay {
@@ -113,12 +113,55 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 400px;
+    height: 60vh;
+  }
+
+  .program-details {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+
+  .program-card {
+    background-color: rgba(66, 70, 80, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 2px 20px 2px;
+    padding: 20px 5px;
+    /* flex-direction: column; */
+    width: 180px;
+    border: 2px solid rgba(66, 70, 80, 0.8);
+
+  }
+
+  .program-card:hover {
+    border: 2px solid white;
+    background-color: rgba(66, 70, 80);
+  }
+
+  .program-icon {
+    max-width: 60px;
+  }
+
+  .program-title {
+    text-align: center;
+    color: #ec5242;
+    font-size: 24px;
+    margin: 10px;
+  }
+
+  .program-text {
+    text-align: center;
+    font-size: 12px;
+    margin: 0 10px 0 10px;
+    color: white;
+
   }
 
   .title {
     text-align: center;
-    font-size: 22px;
+    font-size: 24px;
     margin: 0;
     padding-top: 40px;
   }
@@ -129,10 +172,57 @@
 
   .program-see-more {
     text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
     color: white;
     font-size: 22px;
     margin: 0;
     padding-top: 40px;
+  }
+
+  .speakers-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+  .speaker-card {
+    display: flex;
+    max-width: 40%;
+    margin: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+  }
+
+  .grey-bg {
+    max-width: 80px;
+  }
+
+  .grey-bg:hover {
+    transform: rotate(360deg);
+    transition-duration: 3s;
+    transition-timing-function: ease-in-out;
+  }
+
+  .speaker-picture {
+    max-width: 130px;
+    margin-left: 30px;
+    margin-top: -50px;
+    margin-right: 20px;
+  }
+
+  .speaker-text-container h4 {
+    font-size: 24px;
+  }
+
+  .speaker-text-container h5 {
+    font-size: 14px;
+    color: #ec5242;
+  }
+
+  .speaker-text-container p {
+    font-size: 12px;
+    padding: 0;
   }
 
   .partners {

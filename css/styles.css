@@ -1,23 +1,147 @@
-/* Design of the grey banner  */
-.black-banner {
-  padding-top: 10px;
-  background-color: #3e3e3e;
-  color: white;
+@font-face {
+font-family: "Cocogoose";
+src: url("/css/fonts/cocogoose/Cocogoose_trial.otf");
+font-family: "lato";
+src: url("/css/fonts/lato/Lato-Regular.ttf");
 }
 
-.black-banner-icon a {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
-}
+@media only screen and (min-width: 600px) {
 
-.black-banner-menu p {
-  font-size: 12px;
-}
+  body {
+    margin: 0;
+    max-width: 100%;
+    font-family: "lato", sans-serif;
+  }
 
-/* Design of the white banner  */
+  h2 {
+    font-family: "Cocogoose";
+  }
 
-.white-banner {
-  background-color: white;
-  padding-top: 20px;
+  hr {
+    width: 60px;
+    text-align: center;
+    margin-top: 20px;
+    border-color: #ec5242;
+  }
+
+  /* Design of the grey banner  */
+  .black-banner-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    max-width: 100%;
+    padding: 10px 80px 10px 80px;
+    background-color: #3e3e3e;
+    color: white;
+  }
+
+  .black-banner-items a {
+    color: white;
+    font-size: 16px;
+    padding-left: 1.5em;
+    text-decoration: none;
+  }
+
+  /* Design of the white banner  */
+  .white-banner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 10px 80px 10px 15vw;
+    background-color: white;
+    align-items: center;
+  }
+
+  .white-banner a {
+    padding-right: 3em;
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .white-banner a:hover {
+    color: #ec5242;
+  }
+
+  .logo-container {
+    width: 4em;
+    height: 4em;
+    float: left;
+  }
+
+  .logo {
+    width: inherit;
+  }
+
+  .welcome-screen {
+    background-image: url("/ressources/images/header-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+  }
+
+  .white-overlay {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: inherit;
+  }
+
+  .welcome-text {
+    padding: 10vw 30vw 10vw 15vw;
+  }
+
+  .welcome-user {
+    font-size: 40px;
+    margin: 0;
+    color: #ec5242
+  }
+
+  .page-title {
+    font-size: 60px;
+    margin: 0;
+    color: #ec5242;
+    text-transform: uppercase;
+  }
+
+  .event-intro {
+    border: 1px solid white;
+    background: rgba(247, 247, 247, 0.5);
+    max-width: 80%;
+    padding: 10px;
+  }
+
+  .main-program {
+    background-image: url("/ressources/images/program-background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    padding-top: 40px;
+  }
+
+  .white-text {
+    color: white;
+
+  }
+
+  .program-see-more {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin: 0;
+    padding-top: 40px;
+  }
+
+  .partners {
+    background-color: #414245;
+  }
+
+  .transparent {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }

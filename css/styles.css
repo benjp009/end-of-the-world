@@ -23,6 +23,10 @@
     border-color: #ec5242;
   }
 
+  header {
+    max-width: inherit;
+  }
+
   /* Design of the grey banner  */
   .black-banner-container {
     display: flex;

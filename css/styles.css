@@ -133,10 +133,8 @@
     align-items: center;
     margin: 20px 2px 20px 2px;
     padding: 20px 5px;
-    /* flex-direction: column; */
     width: 180px;
     border: 2px solid rgba(66, 70, 80, 0.8);
-
   }
 
   .program-card:hover {
@@ -160,7 +158,6 @@
     font-size: 12px;
     margin: 0 10px 0 10px;
     color: white;
-
   }
 
   .title {
@@ -188,7 +185,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
+  }
 
   .speaker-card {
     display: flex;

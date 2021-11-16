@@ -587,6 +587,12 @@ hr {
   }
 }
 
+/* About Page */
+
+.about-text {
+  padding: 10vw 5vw 15vw 5vw;
+}
+
 @media only screen and (min-width: 1748px) {
   .main-program {
     height: 50vh;

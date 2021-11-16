@@ -6,36 +6,110 @@
     font-style: normal;
 }
 
-@media only screen and (min-width: 768px) {
-  body {
-    margin: 0;
+body {
+  margin: 0;
+  min-width: fit-content;
+  font-family: "lato";
+}
+
+h2 {
+  font-family: "Cocogoose", "Arial", sans-serif;
+}
+
+h3 {
+  font-size: 24px;
+  color: #4f4f4f;
+}
+
+h4 {
+  font-size: 18px;
+  color: #4f4f4f;
+}
+
+hr {
+  width: 60px;
+  text-align: center;
+  margin-top: 20px;
+  border-color: #ec5242;
+}
+
+header {
+  max-width: inherit;
+}
+
+@media only screen and (max-width: 768px) {
+  .black-banner-container {
+    display: none;
+  }
+
+  .logo-container {
+    display: none;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .nav-menu.active {
+    min-width: inherit;
+  background-color: #6070ff;
+  color: #272a31;
+}
+
+.nav-menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #ec5242;
+  opacity: 90%;
+  color: #272a31;
+  line-height: 44px;
+  padding: 106px 28px 400px 28px;
+  margin-top: -106px;
+}
+
+.nav-menu a {
+  font-size: 50px;
+  align-self: center;
+  padding-top: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+.icon  {
+  margin-left: 80%;
+}
+
+.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+  .main-program {
+    height: 100vh;
+  }
+  .speaker-card {
     max-width: 100%;
-    font-family: "lato";
   }
 
-  h2 {
-    font-family: "Cocogoose", "Arial", sans-serif;
+  .speaker-picture, .grey-bg, .partner-logo {
+    max-width: 50px;
+    margin-left: 30px;
+    margin-top: -50px;
+    margin-right: 20px;
   }
+}
 
-  h3 {
-    font-size: 24px;
-    color: #4f4f4f;
-  }
+@media only screen and (min-width: 768px) {
 
-  h4 {
-    font-size: 18px;
-    color: #4f4f4f;
-  }
+  #close-button {
+    display: none;
+}
 
-  hr {
-    width: 60px;
-    text-align: center;
-    margin-top: 20px;
-    border-color: #ec5242;
-  }
-
-  header {
-    max-width: inherit;
+  #hamburger {
+    display: none;
   }
 
   /* Design of the grey banner  */
@@ -280,5 +354,14 @@
 
   .transparent {
     color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+@media only screen and (min-width: 1748px) {
+  .main-program {
+    height: 50vh;
+  }
+  .speaker-card {
+    max-width: 30%;
   }
 }

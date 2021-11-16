@@ -1,6 +1,9 @@
 @font-face {
   font-family: "Cocogoose";
   src: url("css/fonts/cocogoose/Cocogoose_trial.otf");
+}
+
+@font-face {
   font-family: "lato";
   src: url("css/fonts/lato/Lato-Regular.ttf");
 }

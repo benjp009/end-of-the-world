@@ -241,10 +241,9 @@ hr {
 
 .speaker-card {
   display: flex;
-  max-width: 50%;
+  max-width: 80%;
   margin: 10px;
   border-radius: 10px;
-  padding-right: 20px;
   padding-bottom: 10px;
 }
 
@@ -262,10 +261,15 @@ hr {
   transition-timing-function: ease-in-out;
 }
 
+.speaker-picture-container {
+  margin-right: 20px;
+}
+
 .speaker-picture {
-  max-width: 100px;;
-  margin-left: -50px;
-  margin-bottom: -50px;
+  max-width: 100px;
+  margin-top: -50px;
+  margin-left: 30px;
+  margin-bottom: 10px;
 }
 
 .speaker-text-container h4 {
@@ -432,6 +436,9 @@ hr {
   .grey-bg {
     max-width: 80px;
   }
+
+  .speaker-picture-container {
+    margin-right: 0;
 
   .speaker-picture {
     max-width: 130px;

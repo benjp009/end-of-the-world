@@ -30,7 +30,7 @@ const speaker = [
     description: 'Where there is music, there is life, if we die with music, we will never stop dancing, Woow',
   },
   {
-    profilePicture: '/ressources/images/Speaker6.jpg',
+    profilePicture: 'ressources/images/Speaker6.jpg',
     name: 'Steven McCurry',
     title: 'Disk Pusher on iPad',
     description: 'We will make you dance with music coming from the other world, be ready and party',

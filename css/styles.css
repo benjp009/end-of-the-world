@@ -492,3 +492,12 @@ hr {
     max-width: 30%;
   }
 }
+
+@media only screen and (min-width: 2268px) {
+  .main-program {
+    height: 50vh;
+  }
+  .speaker-card {
+    max-width: 20%;
+  }
+}

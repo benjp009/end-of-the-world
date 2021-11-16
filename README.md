@@ -6,6 +6,9 @@ This page will be my first project as a programmer student.
 
 The live version of the webpage is here [The End of the World Website](https://benjp009.github.io/end-of-the-world/)
 
+[![Watch the video](./ressources/design/design1.png)](./ressources/design/design-video.mov)
+
+
 ### Highlights 🚀
 As part of the design, I have chosen to create a page for an fictive event of the end of the world.
 

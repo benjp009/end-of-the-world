@@ -9,9 +9,20 @@ The live version of the webpage is here [The End of the World Website](https://b
 ### Highlights 🚀
 As part of the design, I have chosen to create a page for an fictive event of the end of the world.
 
+#### The homepage
 ![Homepage](./ressources/design/design1.png)
 
+##### Some box made with Javascript and dynamic design
+![Program](./ressources/design/design2.png)
 
+#### Speakers
+![Speakers](./ressources/design/design3.png)
+
+#### Mobile menu
+![Speakers](./ressources/design/design7.png)
+
+#### Mobile dynamic design
+![Speakers](./ressources/design/design8.png)
 
 ### Pair Programming 🎳
 

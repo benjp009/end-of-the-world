@@ -1,18 +1,16 @@
 @font-face {
-  font-family: "Cocogoose";
-  src: url("css/fonts/cocogoose/Cocogoose_trial.otf");
-}
-
-@font-face {
-  font-family: "lato";
-  src: url("css/fonts/lato/Lato-Regular.ttf");
+    font-family: 'cocogoose';
+    src: url('fonts/cocogoose/cocogoose_trial-webfont.woff2') format('woff2'),
+         url('fonts/cocogoose/cocogoose_trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @media only screen and (min-width: 768px) {
   body {
     margin: 0;
     max-width: 100%;
-    font-family: "lato", "Arial", sans-serif;
+    font-family: "lato";
   }
 
   h2 {
@@ -20,13 +18,11 @@
   }
 
   h3 {
-    font-family: "Cocogoose", "Arial", sans-serif;
     font-size: 24px;
     color: #4f4f4f;
   }
 
   h4 {
-    font-family: "lato", "Arial", sans-serif;
     font-size: 18px;
     color: #4f4f4f;
   }
@@ -127,7 +123,9 @@
   }
 
   .page-title {
-    font-size: 60px;
+    font-size: 52px;
+    line-height: 56px;;
+
     margin: 0;
     color: #ec5242;
     text-transform: uppercase;

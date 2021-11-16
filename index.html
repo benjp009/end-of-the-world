@@ -25,19 +25,26 @@
         <div class="logo-container">
           <img src="ressources/event-image/EoW-Logo.png" alt="A red logo for the End of the World Event" class="logo">
         </div>
-        <nav class="menu-container nav-menu" id="myLinks">
-          <a href="javascript:void(0);" class="icon" onclick="clickFunction()">
-            <i class="fa fa-times" id="close-button" aria-hidden="true"></i>
-          </a>
-          <a href="#About" target="_blank" rel="noopener">About</a>
-          <a href="#Program" target="_blank" rel="noopener">Program</a>
-          <a href="#Jobs" target="_blank" rel="noopener">Jobs</a>
-          <a href="#Sponsor" target="_blank" rel="noopener">Sponsor</a>
-          <a href="#News" target="_blank" rel="noopener">News</a>
+        <div class="menu-container">
+          <div id="overlay-screen" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <nav class="overlay-content menu">
+              <a href="#About">About</a>
+              <a href="#Program">Program</a>
+              <a href="#Jobs">Jobs</a>
+              <a href="#Sponsor">Sponsor</a>
+              <a href="#News">News</a>
+            </nav>
+          </div>
+          <span class="hamburger" onclick="openNav()">&#9776;</span>
+        </div>
+        <nav class="nav-menu">
+          <a href="#About">About</a>
+          <a href="#Program">Program</a>
+          <a href="#Jobs">Jobs</a>
+          <a href="#Sponsor">Sponsor</a>
+          <a href="#News">News</a>
         </nav>
-        <a href="javascript:void(0);" class="icon" onclick="clickFunction()">
-          <i class="fa fa-bars" id="hamburger" aria-hidden="true"></i>
-        </a>
         <div class="button-container">
           <button class="header-button" type="button" name="button">CC Campaing</button>
         </div>

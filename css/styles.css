@@ -33,85 +33,292 @@ hr {
   border-color: #ec5242;
 }
 
-header {
-  max-width: inherit;
+.title {
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
+  padding-top: 40px;
 }
 
-@media only screen and (max-width: 768px) {
-  .black-banner-container {
-    display: none;
-  }
+.white-text {
+  color: white;
+}
 
-  .logo-container {
-    display: none;
-  }
+.black-banner-container {
+  display: none;
+}
 
-  .topnav #myLinks {
-    display: none;
-  }
-
-  .nav-menu.active {
-    min-width: inherit;
-  background-color: #6070ff;
-  color: #272a31;
+.logo-container {
+  display: none;
 }
 
 .nav-menu {
+  display: none;
+}
+
+.white-banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 10px 20px 10px;
+
+}
+
+.menu-container {
+  font-size: 60px;
+  color: #ec5242;
+  text-align: center;
+  width: 40%;
+}
+
+.button-container {
+  width: 40%;
+}
+
+.header-button {
+  font-size: 16px;
+  color: #ec5242;
+  background-color: white;
+  padding: 10px;
+  border: 3px solid #ec5242;
+  border-radius: 2px;
+}
+
+.header-button:hover {
+  color: white;
+  background-color: #ec5242;
+}
+
+.overlay {
+  height: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: #ec5242;
+  background-color: rgba(236, 82, 66, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: ##ec5242;
+}
+
+.overlay .closebtn {
   position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.welcome-screen {
+  background-image: url("../ressources/images/header-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.white-overlay {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: inherit;
+}
+
+.welcome-text {
+  padding: 10vw 10vw 10vw 10vw;
+}
+
+.welcome-user {
+  font-size: 32px;
+  margin: 0;
+  color: #ec5242;
+}
+
+.page-title {
+  font-size: 46px;
+  line-height: 56px;;
+  margin: 0;
+  color: #ec5242;
+  text-transform: uppercase;
+}
+
+.event-intro {
+  border: 1px solid white;
+  background: rgba(247, 247, 247, 0.5);
+  max-width: 80%;
+  padding: 10px;
+}
+
+.main-program {
+  background-image: url("../ressources/images/program-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+
+.main-program h3 {
+  margin: 0;
+}
+
+.program-details {
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
-  background-color: #ec5242;
-  opacity: 90%;
-  color: #272a31;
-  line-height: 44px;
-  padding: 106px 28px 400px 28px;
-  margin-top: -106px;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 
-.nav-menu a {
-  font-size: 50px;
-  align-self: center;
+.program-card {
+  background-color: rgba(66, 70, 80, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 2px 20px 2px;
+  padding: 20px 5px;
+  width: 300px;
+  border: 2px solid rgba(66, 70, 80, 0.8);
+}
+
+.program-card:hover {
+  border: 2px solid white;
+  background-color: rgba(66, 70, 80);
+}
+
+.program-title {
+  text-align: center;
+  color: #ec5242;
+  font-size: 24px;
+  margin: 10px;
+}
+
+.program-text {
+  text-align: center;
+  font-size: 12px;
+  margin: 0 10px 0 10px;
+  color: white;
+}
+
+.program-see-more {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: white;
+  font-size: 22px;
+  margin: 0;
   padding-top: 40px;
-  text-decoration: none;
-  color: white;
+  padding-bottom: 40px;
 }
 
-.icon  {
-  margin-left: 80%;
+.featured {
+  margin-bottom: 80px;
 }
 
-.active {
-  background-color: #04aa6d;
-  color: white;
+.speakers-details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
-  .main-program {
-    height: 100vh;
-  }
-  .speaker-card {
-    max-width: 100%;
-  }
+.speaker-card {
+  display: flex;
+  max-width: 50%;
+  margin: 10px;
+  border-radius: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
 
-  .speaker-picture, .grey-bg, .partner-logo {
-    max-width: 50px;
-    margin-left: 30px;
-    margin-top: -50px;
-    margin-right: 20px;
-  }
+.speaker-card:hover {
+  box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.grey-bg {
+  max-width: 70px;
+}
+
+.grey-bg:hover {
+  transform: rotate(360deg);
+  transition-duration: 3s;
+  transition-timing-function: ease-in-out;
+}
+
+.speaker-picture {
+  max-width: 100px;;
+  margin-left: -50px;
+  margin-bottom: -50px;
+}
+
+.speaker-text-container h4 {
+  font-size: 24px;
+}
+
+.speaker-text-container h5 {
+  font-size: 14px;
+  color: #ec5242;
+}
+
+.speaker-text-container p {
+  font-size: 12px;
+  padding: 0;
+}
+
+.partners {
+  background-color: #414245;
+}
+
+.partner-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.partner-logo {
+  width: 100px;
+  height: 60px;
+  object-fit: contain;
+}
+
+.transparent {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 @media only screen and (min-width: 768px) {
-
-  #close-button {
+  .closebtn {
     display: none;
 }
 
-  #hamburger {
+  .hamburger {
     display: none;
   }
 
+  .overlay {
+    display: none;
+  }
+
+  .menu-container {
+    display: none;
+  }
   /* Design of the grey banner  */
   .black-banner-container {
     display: flex;
@@ -135,9 +342,8 @@ header {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
-    padding: 10px 80px 10px 15vw;
+    padding: 10px 80px 10px 80px;;
     background-color: white;
-    align-items: center;
   }
 
   .white-banner a {
@@ -151,6 +357,7 @@ header {
   }
 
   .logo-container {
+    display: block;
     width: 4em;
     height: 4em;
     float: left;
@@ -160,30 +367,19 @@ header {
     width: inherit;
   }
 
-  .header-button {
+  .nav-menu {
+    font-size: 16px;;
     color: #ec5242;
-    background-color: white;
-    padding: 10px;
-    border: 3px solid #ec5242;
-    border-radius: 2px;
+    text-align: center;
+    /* width: 40%; */
   }
 
-  .header-button:hover {
-    color: white;
-    background-color: #ec5242;
+  .button-container {
+    max-width: 30%;
   }
 
   .welcome-screen {
-    background-image: url("../ressources/images/header-background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 100vh;
-  }
-
-  .white-overlay {
-    background-color: rgba(255, 255, 255, 0.8);
-    height: inherit;
   }
 
   .welcome-text {
@@ -192,103 +388,32 @@ header {
 
   .welcome-user {
     font-size: 40px;
-    margin: 0;
-    color: #ec5242;
   }
 
   .page-title {
     font-size: 52px;
-    line-height: 56px;;
-
-    margin: 0;
-    color: #ec5242;
-    text-transform: uppercase;
-  }
-
-  .event-intro {
-    border: 1px solid white;
-    background: rgba(247, 247, 247, 0.5);
-    max-width: 80%;
-    padding: 10px;
   }
 
   .main-program {
-    background-image: url("../ressources/images/program-background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 60vh;
   }
 
   .program-details {
-    display: flex;
+    flex-direction: row;
+    align-items: stretch;
     justify-content: center;
-    flex-wrap: nowrap;
   }
 
   .program-card {
-    background-color: rgba(66, 70, 80, 0.8);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px 2px 20px 2px;
-    padding: 20px 5px;
     width: 180px;
-    border: 2px solid rgba(66, 70, 80, 0.8);
-  }
-
-  .program-card:hover {
-    border: 2px solid white;
-    background-color: rgba(66, 70, 80);
   }
 
   .program-icon {
     max-width: 60px;
   }
 
-  .program-title {
-    text-align: center;
-    color: #ec5242;
-    font-size: 24px;
-    margin: 10px;
-  }
-
-  .program-text {
-    text-align: center;
-    font-size: 12px;
-    margin: 0 10px 0 10px;
-    color: white;
-  }
-
-  .title {
-    text-align: center;
-    font-size: 24px;
-    margin: 0;
-    padding-top: 40px;
-  }
-
-  .white-text {
-    color: white;
-  }
-
-  .program-see-more {
-    text-align: center;
-    text-decoration: underline;
-    text-transform: uppercase;
-    color: white;
-    font-size: 22px;
-    margin: 0;
-    padding-top: 40px;
-  }
-
-  .featured {
-    margin-bottom: 80px;
-  }
-
-  .speakers-details {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  .speaker-details {
+    flex-direction: row;
   }
 
   .speaker-card {
@@ -306,12 +431,6 @@ header {
 
   .grey-bg {
     max-width: 80px;
-  }
-
-  .grey-bg:hover {
-    transform: rotate(360deg);
-    transition-duration: 3s;
-    transition-timing-function: ease-in-out;
   }
 
   .speaker-picture {

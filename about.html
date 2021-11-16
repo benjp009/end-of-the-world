@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>End of the World Event</title>
-    <link rel="icon" type="image/x-icon" href="./ressources/event-image/EoW-red-circle.png">
+    <link rel="icon" type="image/x-icon" href="ressources/event-image/EoW-red-circle.png">
 
   </head>
   <body>
@@ -22,73 +23,62 @@
       </section>
       <section class="white-banner">
         <div class="logo-container">
-          <a href="/">
-            <img src="./ressources/event-image/EoW-Logo.png" alt="A red logo for the End of the World Event" class="logo">
+          <a href="/" class="logo-container-2">
+            <img src="ressources/event-image/EoW-Logo.png" alt="A red logo for the End of the World Event" class="logo">
           </a>
         </div>
-        <nav class="menu-container nav-menu nav-menu-mobile" id="myLinks">
-          <a href="javascript:void(0);" class="icon" onclick="clickFunction()">
-            <i class="fa fa-times" id="close-button" aria-hidden="true"></i>
-          </a>
-          <a href="#About" target="_blank" rel="noopener">About</a>
-          <a href="#Program" target="_blank" rel="noopener">Program</a>
-          <a href="#Jobs" target="_blank" rel="noopener">Jobs</a>
-          <a href="#Sponsor" target="_blank" rel="noopener">Sponsor</a>
-          <a href="#News" target="_blank" rel="noopener">News</a>
+        <div class="menu-container">
+          <div id="overlay-screen" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <nav class="overlay-content menu">
+              <a href="./about.html" class="active">About</a>
+              <a href="#Program">Program</a>
+              <a href="#Jobs">Jobs</a>
+              <a href="#Sponsor">Sponsor</a>
+              <a href="#News">News</a>
+            </nav>
+          </div>
+          <span class="hamburger" onclick="openNav()">&#9776;</span>
+        </div>
+        <nav class="nav-menu">
+          <a href="./about.html" class="active">About</a>
+          <a href="#Program">Program</a>
+          <a href="#Jobs">Jobs</a>
+          <a href="#Sponsor">Sponsor</a>
+          <a href="#News">News</a>
         </nav>
-        <a href="javascript:void(0);" class="icon" onclick="clickFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
         <div class="button-container">
           <button class="header-button" type="button" name="button">CC Campaing</button>
         </div>
       </section>
     </header>
-    <section class="welcome-screen">
-      <div class="white-overlay">
-        <div class="welcome-text">
-          <p class="welcome-user">Hello Beautiful People</p>
-          <h2 class="page-title">End of the World Event 2022</h2>
-          <p class="event-intro">The end is near, and the world is doing one last event to finish lives of 7 billions people this year. for the occasion amazing VIP will accompagny you along the way to leave all together. Would you rather be alone and bored, or dance like there is no tomorrow and have no regrets ?</p>
-          <h3>2022.02.22(TUE)</h3>
-          <h4>@Camp Nou, Barcelona, Spain</h4>
+    <section class="grey-background">
+      <div class="about-text">
+        <h2 class="page-title">End of the World Event 2022</h2>
+        <p class="about-intro">The end is near, and the world is doing one last event to finish lives of 7 billions people this year. for the occasion amazing VIP will accompagny you along the way to leave all together. Would you rather be alone and bored, or dance like there is no tomorrow and have no regrets ?</p>
+        <h5>Please don't try to resist the event, it's the last thing you will do in your life</h5>
+        <h6 href = "mailto: endtogether@endoftheworld.com">endtogether@endoftheworld.com</h6>
+      </div>
+    </section>
+    <section>
+      <h3 class="title">Past Events</h3>
+      <hr>
+      <div class="past-event">
+        <div class="past-card past-card1">
+          <div class="orange-overlay">
+            <h4 class="date">- 13.8b</h2>
+            <p class="about-event">The Big Bang</p>
+          </div>
+        </div>
+        <div class="past-card past-card2">
+          <div class="orange-overlay">
+            <h4 class="date">- 65m</h2>
+            <p class="about-event">The Dinosaur Ending</p>
+          </div>
         </div>
       </div>
     </section>
-    <section class="main-program">
-      <h3 class="title white-text">Main Program</h3>
-      <hr>
-      <div class="program">
-        <div class="program-details" id="program">
 
-        </div>
-        <p class="program-see-more">See the whole program</p>
-      </div>
-    </section>
-    <section class="featured">
-      <h3 class="title">Featured Speakers</h3>
-      <hr>
-      <div class="speakers">
-        <div class="speakers-details" id="speaker">
-
-        </div>
-
-      </div>
-    </section>
-    <section class="partners">
-      <h3 class="title white-text transparent">Partners</h3>
-      <hr>
-      <div class="partner-container">
-        <img class="partner-logo" src="./ressources/partners/universal.png" alt="Universal Studio Logo">
-        <img class="partner-logo" src="./ressources/partners/bitcoin.png" alt="Bitcoin Logo">
-        <img class="partner-logo" src="./ressources/partners/burning-man.png" alt="Burning Man Logo">
-        <img class="partner-logo" src="./ressources/partners/illuminati.png" alt="Illuminati Logo">
-        <img class="partner-logo" src="./ressources/partners/wwf.png" alt="WWF Logo">
-      </div>
-    </section>
-    <script src="javascript/program.js">
-    </script>
-    <script src="javascript/speakers.js">
     </script>
   </body>
 </html>

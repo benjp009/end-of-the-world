@@ -12,20 +12,20 @@ The live version of the webpage is here [The End of the World Website](https://b
 ✅ Follow these design guidelines:  typography: font face, size and weight.<br>
 ✅ Follow these design guidelines:  layout: composition and space between elements.<br>
 ✅ Look almost identical to the original design. Small adjustments like text or image changes are acceptable.<br>
-- [ ] Use Bootstrap for styling, if you want to.
+- [ ] Use Bootstrap for styling, if you want to.<br>
 ✅ Build the home page.<br>
-- [ ] Build the about page.
-- [ ] Each of the pages should have versions for 2 different screens sizes:
-  - [ ] Mobile: up to 768px wide.
-  - [ ] Desktop: 768px or wider.
-- [ ] Interactions
-  - [ ] Links
-    - [ ] The home page should have a link in the menu to the about page.
-    - [ ] The logo in the header links to the home page.
-  - [ ] Mobile menu
-    - [ ] When the user clicks (or taps) the hamburger button on the header, the mobile menu appears over the page.
-    - [ ] There are no guidelines for the mobile menu in the docs, but you should implement it so it is consistent with the design (colors, typography, spacings, etc.).
-    - [ ] The mobile menu should have a close (X) button that closes the menu.
+- [ ] Build the about page.<br>
+- [ ] Each of the pages should have versions for 2 different screens sizes:<br>
+  - [ ] Mobile: up to 768px wide.<br>
+  - [ ] Desktop: 768px or wider.<br>
+- [ ] Interactions<br>
+  - [ ] Links<br>
+    - [ ] The home page should have a link in the menu to the about page.<br>
+    - [ ] The logo in the header links to the home page.<br>
+  - [ ] Mobile menu<br>
+    - [ ] When the user clicks (or taps) the hamburger button on the header, the mobile menu appears over the page.<br>
+    - [ ] There are no guidelines for the mobile menu in the docs, but you should implement it so it is consistent with the design (colors, typography, spacings, etc.).<br>
+    - [ ] The mobile menu should have a close (X) button that closes the menu.<br>
 ✅ Dynamic page<br>
   ✅ The section "Featured speakers" should be created dynamically in JavaScript.<br>
   ✅ Use a JavaScript variable with the data about the speakers and use it when the page loads to create the HTML for this section dynamically.<br>

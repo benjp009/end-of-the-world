@@ -7,13 +7,13 @@ This page will be my first project as a programmer student.
 The live version of the webpage is here [The End of the World Website](https://benjp009.github.io/end-of-the-world/)
 
 ### Requirements 🚀
-- [ ] Personalize the content of your page. Choose a topic that is different than the one in the original design.
-- [ ] Follow these design guidelines:  colors.
-- [ ] Follow these design guidelines:  typography: font face, size and weight.
-- [ ] Follow these design guidelines:  layout: composition and space between elements.
-- [ ] Look almost identical to the original design. Small adjustments like text or image changes are acceptable.
+✅ Personalize the content of your page. Choose a topic that is different than the one in the original design.
+✅ Follow these design guidelines:  colors.
+✅ Follow these design guidelines:  typography: font face, size and weight.
+✅ Follow these design guidelines:  layout: composition and space between elements.
+✅ Look almost identical to the original design. Small adjustments like text or image changes are acceptable.
 - [ ] Use Bootstrap for styling, if you want to.
-- [ ] Build the home page.
+✅ Build the home page.
 - [ ] Build the about page.
 - [ ] Each of the pages should have versions for 2 different screens sizes:
   - [ ] Mobile: up to 768px wide.
@@ -26,10 +26,10 @@ The live version of the webpage is here [The End of the World Website](https://b
     - [ ] When the user clicks (or taps) the hamburger button on the header, the mobile menu appears over the page.
     - [ ] There are no guidelines for the mobile menu in the docs, but you should implement it so it is consistent with the design (colors, typography, spacings, etc.).
     - [ ] The mobile menu should have a close (X) button that closes the menu.
-- [ ] Dynamic page
-  - [ ] The section "Featured speakers" should be created dynamically in JavaScript.
-  - [ ] Use a JavaScript variable with the data about the speakers and use it when the page loads to create the HTML for this section dynamically.
-- [ ] The Creative Commons license of the design requires that you give appropriate credit to the author. Therefore, you must do it in the README of your project.
+✅ Dynamic page
+  ✅ The section "Featured speakers" should be created dynamically in JavaScript.
+  ✅ Use a JavaScript variable with the data about the speakers and use it when the page loads to create the HTML for this section dynamically.
+✅ The Creative Commons license of the design requires that you give appropriate credit to the author. Therefore, you must do it in the README of your project.
 
 
 ### Pair Programming 🎳

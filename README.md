@@ -28,11 +28,7 @@ As part of the design, I have chosen to create a page for an fictive event of th
 
 For the milestone project, there is no Pair Programming required, so I have been working on it by myself.
 
-### Additional requirements
-
-If you decide to implement these requirements, you should do it in a separate pull request. As always, remember to clearly document your decision in GitHub comments.
-- [ ] You could implement some UX improvements: add the "More" button on the home page, include transitions and/or animations, etc.
-- [ ] You could implement additional pages, like the tickets page and the schedule page. Make sure that you have a decent mobile design for them.
+### Extra information
 
 If you like this project, feel free to reach out to me on [LinkedIn](http://linkedin.com/en/benjaminpatin)
 

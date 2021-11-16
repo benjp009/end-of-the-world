@@ -368,10 +368,10 @@ hr {
   }
 
   .nav-menu {
+    display: block;
     font-size: 16px;;
     color: #ec5242;
     text-align: center;
-    /* width: 40%; */
   }
 
   .button-container {

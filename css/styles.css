@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Cocogoose";
-  src: url("/css/fonts/cocogoose/Cocogoose_trial.otf");
+  src: url("css/fonts/cocogoose/Cocogoose_trial.otf");
   font-family: "lato";
-  src: url("/css/fonts/lato/Lato-Regular.ttf");
+  src: url("css/fonts/lato/Lato-Regular.ttf");
 }
 
 @media only screen and (min-width: 768px) {
@@ -102,7 +102,7 @@
   }
 
   .welcome-screen {
-    background-image: url("/ressources/images/header-background.jpg");
+    background-image: url("ressources/images/header-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,7 +139,7 @@
   }
 
   .main-program {
-    background-image: url("/ressources/images/program-background.jpg");
+    background-image: url("ressources/images/program-background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -16,6 +16,18 @@
     font-family: "Cocogoose", "Arial", sans-serif;
   }
 
+  h3 {
+    font-family: "Cocogoose", "Arial", sans-serif;
+    font-size: 24px;
+    color: #4f4f4f;
+  }
+
+  h4 {
+    font-family: "lato", "Arial", sans-serif;
+    font-size: 18px;
+    color: #4f4f4f;
+  }
+
   hr {
     width: 60px;
     text-align: center;
@@ -73,6 +85,20 @@
 
   .logo {
     width: inherit;
+  }
+
+  .header-button {
+    color: #ec5242;
+    background-color: white;
+    padding: 10px;
+    border: 3px solid #ec5242;
+    border-radius: 2px;
+  }
+
+  .header-button:hover {
+    color: white;
+    background-color: #ec5242;
+
   }
 
   .welcome-screen {
@@ -181,6 +207,10 @@
     padding-top: 40px;
   }
 
+  .featured {
+    margin-bottom: 80px;
+  }
+
   .speakers-details {
     display: flex;
     flex-wrap: wrap;
@@ -191,10 +221,14 @@
     display: flex;
     max-width: 40%;
     margin: 10px;
+    border-radius: 10px;
     padding-right: 20px;
     padding-bottom: 10px;
   }
 
+  .speaker-card:hover {
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.2)
+  }
   .grey-bg {
     max-width: 80px;
   }
@@ -230,7 +264,21 @@
     background-color: #414245;
   }
 
+  .partner-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
+  .partner-logo {
+    width: 100px;
+    height: 60px;
+    object-fit: contain;
+  }
+
   .transparent {
     color: rgba(255, 255, 255, 0.6);
   }
+
 }

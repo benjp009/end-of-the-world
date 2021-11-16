@@ -98,7 +98,6 @@
   .header-button:hover {
     color: white;
     background-color: #ec5242;
-
   }
 
   .welcome-screen {
@@ -227,8 +226,9 @@
   }
 
   .speaker-card:hover {
-    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.2)
+    box-shadow: 10px 5px 20px rgba(0, 0, 0, 0.2);
   }
+
   .grey-bg {
     max-width: 80px;
   }
@@ -280,5 +280,4 @@
   .transparent {
     color: rgba(255, 255, 255, 0.6);
   }
-
 }

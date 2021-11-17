@@ -188,12 +188,13 @@ hr {
 
 .program-card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin: 20px 2px 20px 2px;
+  background-color: rgba(66, 70, 80, 0.7);
+  margin: 5px 2px 5px 2px;
   padding: 20px 5px;
-  width: 300px;
-  border: 2px solid rgba(66, 70, 80, 0.8);
+  width: 80%;
+  border: 2px solid rgba(66, 70, 80, 0.7);
 }
 
 .program-card:hover {
@@ -201,10 +202,14 @@ hr {
   background-color: rgba(66, 70, 80);
 }
 
+.program-icon {
+  max-width: 30px;
+}
+
 .program-title {
   text-align: center;
   color: #ec5242;
-  font-size: 24px;
+  font-size: 18px;
   margin: 10px;
 }
 
@@ -305,6 +310,30 @@ hr {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer {
+  display: grid;
+  background-color: #f2f2f2;
+  grid-template-columns: 30vw 60vw;
+  padding: 40px 5vw 40px 5vw;
+}
+
+.footer-black {
+  background-color: rgba(66, 70, 80);
+  color: white;
+}
+
+.footer-logo {
+  align-self: center;
+}
+
+.footer-title {
+  font-size: 18px;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
 /* About Page */
 .grey-background {
   background-image: url("../ressources/images/about-background.jpg");
@@ -342,6 +371,25 @@ hr {
   background: rgba(247, 247, 247, 0.5);
   padding: 20px;
   margin: 40px;
+}
+
+.branding {
+  border: 1px solid rgba(66, 70, 80, 0.3);
+}
+
+.branding-text {
+  font-size: 18px;
+  padding: 10px 20vw 20px 20vw;
+}
+
+.branding-logo-container {
+  margin: auto;
+  width: 20%;
+  padding: 10px;
+}
+
+.branding-logo {
+  max-width: 100%;
 }
 
 .past-event {
@@ -512,11 +560,21 @@ hr {
   }
 
   .program-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 180px;
   }
 
   .program-icon {
     max-width: 60px;
+  }
+
+  .program-title {
+    text-align: center;
+    color: #ec5242;
+    font-size: 24px;
+    margin: 10px;
   }
 
   .speaker-details {
@@ -571,7 +629,7 @@ hr {
 
   .partner-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-top: 50px;
     padding-bottom: 100px;
   }
@@ -579,7 +637,14 @@ hr {
   .partner-logo {
     width: 100px;
     height: 60px;
+    padding-left: 5vw;
     object-fit: contain;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 20vw 60vw;
+    padding: 40px 10vw 40px 10vw;
   }
 
   .transparent {

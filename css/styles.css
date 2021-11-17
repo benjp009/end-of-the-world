@@ -156,7 +156,7 @@ hr {
 
 .page-title {
   font-size: 46px;
-  line-height: 56px;;
+  line-height: 56px;
   margin: 0;
   color: #ec5242;
   text-transform: uppercase;
@@ -658,6 +658,7 @@ hr {
   .main-program {
     height: 50vh;
   }
+
   .speaker-card {
     max-width: 30%;
   }
@@ -667,6 +668,7 @@ hr {
   .main-program {
     height: 50vh;
   }
+  
   .speaker-card {
     max-width: 20%;
   }

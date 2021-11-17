@@ -1,4 +1,3 @@
-/* eslint no-unused-vars: "error" */
 /* Open */
 function openNav() {
   document.getElementById('overlay-screen').style.height = '100%';

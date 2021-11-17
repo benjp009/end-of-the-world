@@ -5,6 +5,7 @@ function openNav() {
 }
 
 /* Close */
+// eslint-disable-next-line no-unused-vars
 function closeNav() {
   document.getElementById('overlay-screen').style.height = '0%';
 }

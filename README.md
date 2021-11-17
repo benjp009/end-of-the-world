@@ -1,13 +1,10 @@
 # End of the World
 
-As part of the Microverse curriculum, I have been asked to create a page from scratch using HTML, CSS and JavaScrpit.
-
 This page will be my first project as a programmer student.
 
 The live version of the webpage is here [The End of the World Website](https://benjp009.github.io/end-of-the-world/)
 
 [![Watch the video](./ressources/design/design1.png)]()
-
 
 ### Highlights 🚀
 As part of the design, I have chosen to create a page for an fictive event of the end of the world.

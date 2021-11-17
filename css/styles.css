@@ -58,15 +58,15 @@ hr {
 
 .white-banner {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 20px 10px 20px 10px;
+  padding: 20px 10px 20px 10vw;
 }
 
 .menu-container {
   font-size: 60px;
-  color: #ec5242;
-  text-align: center;
+  color: #414245;
+  text-align: left;
   width: 40%;
 }
 
@@ -437,8 +437,8 @@ hr {
   .white-banner {
     display: flex;
     justify-content: space-between;
-    max-width: 100%;
-    padding: 10px 80px 10px 80px;;
+    min-width: 100%;
+    padding: 10px 0 10px 15vw;;
     background-color: white;
   }
 

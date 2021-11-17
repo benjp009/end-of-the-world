@@ -1,48 +1,35 @@
 # End of the World
 
-As part of the Microverse curriculum, I have been asked to create a page from scratch using HTML, CSS and JavaScrpit. 
-
-This page will be my first project as a programmer student. 
+This page will be my first project as a programmer student.
 
 The live version of the webpage is here [The End of the World Website](https://benjp009.github.io/end-of-the-world/)
 
-### Requirements 🚀
-- [ ] Personalize the content of your page. Choose a topic that is different than the one in the original design.
-- [ ] Follow these design guidelines:  colors.
-- [ ] Follow these design guidelines:  typography: font face, size and weight.
-- [ ] Follow these design guidelines:  layout: composition and space between elements.
-- [ ] Look almost identical to the original design. Small adjustments like text or image changes are acceptable.
-- [ ] Use Bootstrap for styling, if you want to.
-- [ ] Build the home page.
-- [ ] Build the about page.
-- [ ] Each of the pages should have versions for 2 different screens sizes:
-  - [ ] Mobile: up to 768px wide.
-  - [ ] Desktop: 768px or wider.
-- [ ] Interactions
-  - [ ] Links
-    - [ ] The home page should have a link in the menu to the about page.
-    - [ ] The logo in the header links to the home page.
-  - [ ] Mobile menu
-    - [ ] When the user clicks (or taps) the hamburger button on the header, the mobile menu appears over the page.
-    - [ ] There are no guidelines for the mobile menu in the docs, but you should implement it so it is consistent with the design (colors, typography, spacings, etc.).
-    - [ ] The mobile menu should have a close (X) button that closes the menu.
-- [ ] Dynamic page
-  - [ ] The section "Featured speakers" should be created dynamically in JavaScript.
-  - [ ] Use a JavaScript variable with the data about the speakers and use it when the page loads to create the HTML for this section dynamically.
-- [ ] The Creative Commons license of the design requires that you give appropriate credit to the author. Therefore, you must do it in the README of your project.
+[![Watch the video](./ressources/design/video-preview.png)](https://www.loom.com/share/c592bbb85aec4eb3b01e5d6ad0daf4d9)
 
+### Highlights 🚀
+As part of the design, I have chosen to create a page for an fictive event of the end of the world.
+
+#### The homepage
+![Homepage](./ressources/design/design1.png)
+
+##### Some box made with Javascript and dynamic design
+![Program](./ressources/design/design2.png)
+
+#### Speakers
+![Speakers](./ressources/design/design3.png)
+
+#### Mobile menu
+![Speakers](./ressources/design/design7.png)
+
+#### Mobile dynamic design
+![Speakers](./ressources/design/design8.png)
 
 ### Pair Programming 🎳
 
-For the milestone project, there is no Pair Programming required, so I have been working on it by myself. 
+For the milestone project, there is no Pair Programming required, so I have been working on it by myself.
 
-### Additional requirements
-
-If you decide to implement these requirements, you should do it in a separate pull request. As always, remember to clearly document your decision in GitHub comments.
-- [ ] You could implement some UX improvements: add the "More" button on the home page, include transitions and/or animations, etc.
-- [ ] You could implement additional pages, like the tickets page and the schedule page. Make sure that you have a decent mobile design for them.
+### Extra information
 
 If you like this project, feel free to reach out to me on [LinkedIn](http://linkedin.com/en/benjaminpatin)
 
 Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
-

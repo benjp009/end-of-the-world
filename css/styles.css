@@ -1,19 +1,20 @@
 @font-face {
-    font-family: 'cocogoose';
-    src: url('fonts/cocogoose/cocogoose_trial-webfont.woff2') format('woff2'),
-         url('fonts/cocogoose/cocogoose_trial-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'cocogoose';
+  src:
+    url('fonts/cocogoose/cocogoose_trial-webfont.woff2') format('woff2'),
+    url('fonts/cocogoose/cocogoose_trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
   margin: 0;
-  min-width: fit-content;
-  font-family: "lato";
+  min-width: 100%;
+  font-family: "lato", Arial, sans-serif;
 }
 
 h2 {
-  font-family: "Cocogoose", "Arial", sans-serif;
+  font-family: "Cocogoose", Arial, sans-serif;
 }
 
 h3 {
@@ -118,8 +119,9 @@ hr {
   transition: 0.3s;
 }
 
-.overlay a:hover, .overlay a:focus {
-  color: ##ec5242;
+.overlay a:hover,
+.overlay a:active {
+  color: #ec5242;
 }
 
 .overlay .closebtn {
@@ -446,11 +448,10 @@ hr {
   background-color: rgba(251, 122, 1, 0.5);
 }
 
-
 @media only screen and (min-width: 768px) {
   .closebtn {
     display: none;
-}
+  }
 
   .hamburger {
     display: none;
@@ -463,6 +464,7 @@ hr {
   .menu-container {
     display: none;
   }
+
   /* Design of the grey banner  */
   .black-banner-container {
     display: flex;
@@ -486,7 +488,7 @@ hr {
     display: flex;
     justify-content: space-between;
     min-width: 100%;
-    padding: 10px 0 10px 15vw;;
+    padding: 10px 0 10px 15vw;
     background-color: white;
   }
 
@@ -524,7 +526,7 @@ hr {
 
   .nav-menu {
     display: block;
-    font-size: 16px;;
+    font-size: 16px;
     color: #ec5242;
     text-align: center;
   }
@@ -547,10 +549,6 @@ hr {
 
   .page-title {
     font-size: 52px;
-  }
-
-  .main-program {
-    height: 60vh;
   }
 
   .program-details {
@@ -650,12 +648,10 @@ hr {
   .transparent {
     color: rgba(255, 255, 255, 0.6);
   }
-}
 
-/* About Page */
-
-.about-text {
-  padding: 10vw 5vw 15vw 5vw;
+  .about-text {
+    padding: 10vw 5vw 15vw 5vw;
+  }
 }
 
 @media only screen and (min-width: 1748px) {

@@ -1,4 +1,5 @@
-// eslint-disable-next-line no-unused-vars
+/*eslint no-unused-vars: "error"*/
+/*global some_unused_var*/
 /* Open */
 function openNav() {
   document.getElementById('overlay-screen').style.height = '100%';
